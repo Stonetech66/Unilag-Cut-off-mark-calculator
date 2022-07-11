@@ -4,7 +4,7 @@ a1, b2, b3, c4, c5, c6= 4.0, 3.6, 3.2, 2.8, 2.4, 2.0
 add, a, f, c, d, e= 0, 0, 0, 0, 0, 0
 for i in range(5):
 
- waec= input("enter your waec score: ")
+ waec= input("enter your waec scores: ")
  if waec == "A1":
    add += 1
    A1= 4.0
