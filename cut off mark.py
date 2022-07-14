@@ -2,8 +2,9 @@
 #qpy:console
 a1, b2, b3, c4, c5, c6= 4.0, 3.6, 3.2, 2.8, 2.4, 2.0
 add, a, f, c, d, e= 0, 0, 0, 0, 0, 0
-for i in range(5):
+print("Waec Scores : A1, B2, B3, C4, C5, C6, D7, D8")
 
+for i in range(5):
  waec= input("enter your waec scores: ")
  if waec == "A1":
    add += 1
@@ -28,8 +29,8 @@ for i in range(5):
    e += 1
    C6= 3.6
    
- else:
-   print("sorry you don't qualify Unilag")
+ elif waec == "D7" or "E8":
+  print("this Score is not allowed")
    
 agg_w=add*a1+a*b2+f*b3+c*c4+d*c5+e*c6
 
@@ -37,8 +38,8 @@ for i in range (3):
  jamb = int(input("enter your jamb score: "))
  if jamb < 400:
      break
- elif jamb >400:
-    print("exceeds range")
+ elif jamb >=400:
+    print("invalid Score")
    
 for i in range(3):
  post_utme= float(input("enter your post utme score: "))
