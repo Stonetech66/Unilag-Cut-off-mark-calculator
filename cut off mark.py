@@ -60,9 +60,9 @@ for i in range(3):
  elif post_utme> 30:
     print("ivalid input")
    
-print("\n\n  waec score: ",agg_w)
-print("        jamb score: ",jamb)
-print("        post utme score: ",post_utme)
+print("\n\n waec score: ",agg_w)
+print("jamb score: ",jamb)
+print("post utme score: ",post_utme)
 agg=agg_w+jamb/8+post_utme
 print("\n\n   Your aggregate is: ",agg)
 
