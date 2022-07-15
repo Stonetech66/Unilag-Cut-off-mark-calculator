@@ -7,32 +7,32 @@ print("Waec Scores : A1, B2, B3, C4, C5, C6, D7, D8")
 for i in range(5):
  waec= input("enter your waec scores: ")
  if waec == "A1":
-   add += 1
+   a += 1
    A1= 4.0
    
  elif waec == "B2":
-   a += 1
+   b += 1
    B2= 3.6   
    
  elif waec == "B3":
-   f += 1
+   c += 1
    B3= 3.2
    
  elif waec == "C4":
-   c += 1
+   d += 1
    
  elif waec == "C5":
-   d +=1
+   e +=1
    C5= 3.6
    
  elif waec == "C6":
-   e += 1
+   f += 1
    C6= 3.6
    
  elif waec == "D7" or "E8":
   print("this Score is not allowed")
    
-agg_w=add*a1+a*b2+f*b3+c*c4+d*c5+e*c6
+agg_w=a*a1+b*b2+c*b3+d*c4+e*c5+f*c6
 
 for i in range (3):
  jamb = int(input("enter your jamb score: "))
