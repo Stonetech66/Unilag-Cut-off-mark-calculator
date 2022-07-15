@@ -4,6 +4,13 @@ a1, b2, b3, c4, c5, c6= 4.0, 3.6, 3.2, 2.8, 2.4, 2.0
 add, a, f, c, d, e= 0, 0, 0, 0, 0, 0
 print("Waec Scores : A1, B2, B3, C4, C5, C6, D7, D8")
 
+"""
+For Waec Calculation 
+Note: Waec subjects are 5
+Grades= A1, B2, B3, C4, C5, C6, D7, D8
+"""
+
+
 for i in range(5):
  waec= input("enter your waec scores: ")
  if waec == "A1":
@@ -31,6 +38,7 @@ for i in range(5):
    
  elif waec == "D7" or "E8":
   print("this Score is not allowed")
+  break
    
 agg_w=a*a1+b*b2+c*b3+d*c4+e*c5+f*c6
 
