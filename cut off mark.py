@@ -39,6 +39,10 @@ for i in range(5):
  elif waec == "D7" or "E8":
   print("this Score is not allowed")
   break
+  
+ elif waec== "F9":
+  print("sorry Unilag dosent accept this grade ",waec)
+  break
    
 agg_w=a*a1+b*b2+c*b3+d*c4+e*c5+f*c6
 
