@@ -1,5 +1,4 @@
-#-*-coding:utf8;-*-
-#qpy:console
+# Unilag Cut off mark calculator
 a1, b2, b3, c4, c5, c6= 4.0, 3.6, 3.2, 2.8, 2.4, 2.0
 add, a, f, c, d, e= 0, 0, 0, 0, 0, 0
 print("Waec Scores : A1, B2, B3, C4, C5, C6, D7, D8")
